@@ -8,4 +8,4 @@ Los aspectos más importantes de Tidy Data son:
 2. Cada observación forma una fila.
 3. Cada tipo de unidad observacional forma una tabla.
 
-Las operaciones necesarias para llevar los archivos a un formato Tidy se detallan en el Jupyter Notebook llamado `tidy_transformations.ipynb`.
+Las operaciones necesarias para llevar los archivos a un formato Tidy se detallan en el Jupyter Notebook llamado `020_transformaciones_tidy.ipynb`.
