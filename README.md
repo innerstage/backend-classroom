@@ -5,9 +5,9 @@ Lessons on data tidying/wrangling with Python, Bamboo-lib and ETL in general.
 
 ### Extracción, Transformación y Carga de Datos (ETL)
 
-1. Análisis Exploratorio de Datos
-2. Transformaciones Tidy
-3. El Modelo Relacional
+1. [Análisis Exploratorio de Datos](https://github.com/innerstage/backend-classroom/blob/master/ETL/01_AED.md)
+2. [Transformaciones Tidy](https://github.com/innerstage/backend-classroom/blob/master/ETL/02_Transformaciones_Tidy.md)
+3. [El Modelo Relacional](https://github.com/innerstage/backend-classroom/blob/master/ETL/03_El_Modelo_Relacional.md)
 4. El Pipeline de Bamboo
 5. El Schema de Tesseract
 
