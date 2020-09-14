@@ -28,4 +28,4 @@ Nuestro modelo relacional quedaría de la siguiente forma:
 
 <img src="img/relational_model.png" style="border:2px solid black">
 
-El detalle de las operaciones requeridas en cada caso se encuentra en el Jupyter Notebook `030_modelo_relacional.ipynb`.
+El detalle de las operaciones requeridas en cada caso se encuentra en el Jupyter Notebook `modelo_relacional.ipynb`.

@@ -1,0 +1,3 @@
+clickhouse-local:
+  driver: bamboo_lib.connectors.drivers.clickhouse.ClickhouseDriver
+  uri: clickhouse://$DB_USER:$DB_PW@$DB_URL/$DB_NAME

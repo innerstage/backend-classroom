@@ -10,7 +10,7 @@ Para comenzar el proceso de escribir scripts de ETL, realizaremos un análisis e
 * ¿Tenemos valores nulos (`NaN`) en ciertas columnas? ¿Cuál es la mejor estrategia para este conjunto de datos?
 * ¿Los archivos se encuentran en formato Tidy? Si no, ¿Qué operaciones debo efectuar para que lo esté?
 
-Estas respuestas se encuentran en el Jupyter Notebook llamado `010_analisis_exploratorio.ipynb`, si clonaste este repositorio, te recomiendo crear un entorno virtual de Python primero y ejecutar Jupyter Notebook desde ahí (Los comandos en Windows no están testeados).
+Estas respuestas se encuentran en el Jupyter Notebook llamado `analisis_exploratorio.ipynb`, si clonaste este repositorio, te recomiendo crear un entorno virtual de Python primero y ejecutar Jupyter Notebook desde ahí (Los comandos en Windows no están testeados).
 
 
 <details>
