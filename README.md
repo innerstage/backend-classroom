@@ -9,7 +9,7 @@ Lessons on data tidying/wrangling with Python, Bamboo-lib and ETL in general.
 2. [Transformaciones Tidy](https://github.com/innerstage/backend-classroom/blob/master/ETL/02_Transformaciones_Tidy.md)
 3. [El Modelo Relacional](https://github.com/innerstage/backend-classroom/blob/master/ETL/03_El_Modelo_Relacional.md)
 4. [El Pipeline de Bamboo](https://github.com/innerstage/backend-classroom/blob/master/ETL/04_Pipeline_Bamboo.md)
-5. El Schema de Tesseract
+5. [El Schema de Tesseract](https://github.com/innerstage/backend-classroom/blob/master/ETL/05_Esquema_Tesseract.md)
 
 ### El Entorno Remoto
 

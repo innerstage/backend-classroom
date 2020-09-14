@@ -1,0 +1,50 @@
+<Schema name="tic">
+    <Cube name="tic">
+        <Table name="tic_fact"/>
+
+        <Dimension name="Region" foreign_key="region_id">
+            <Hierarchy hasAll="true">
+                <Table name="tic_dim_region"/>
+                <Level name="Region" key_column="region_id" name_column="region_name" key_type="text"/>
+            </Hierarchy>
+        </Dimension>
+
+        <Dimension name="Data Origin" foreign_key="data_origin_id">
+            <Hierarchy hasAll="true">
+                <InlineTable alias="data_origin_table">
+                    <ColumnDefs>
+                        <ColumnDef name="data_origin_id" key_column_type="UInt8"/>
+                        <ColumnDef name="data_origin_name" key_type="text" key_column_type="String"/>
+                    </ColumnDefs>
+                    <Rows>
+                        <Row>
+                            <Value column="data_origin_id">1</Value>
+                            <Value column="data_origin_name">INEI</Value>
+                        </Row>
+                        <Row>
+                            <Value column="data_origin_id">0</Value>
+                            <Value column="data_origin_name">ENE</Value>
+                        </Row>
+                    </Rows>
+                </InlineTable>
+                <Level name="Data Origin" key_column="data_origin_id" name_column="data_origin_name"/>
+            </Hierarchy>
+        </Dimension>
+
+        <Dimension name="Year" foreign_key="year">
+            <Hierarchy hasAll="true">
+                <Level name="Year" key_column="year"/>
+            </Hierarchy>
+        </Dimension>
+
+        <Dimension name="Variable" foreign_key="response_id">
+            <Hierarchy hasAll="true">
+                <Table name="tic_dim_variable"/>
+                <Level name="Variable" key_column="variable_name" key_type="text"/>
+                <Level name="Response" key_column="response_id" name_column="response_name"/>
+            </Hierarchy>
+        </Dimension>
+
+        <Measure name="Percentage" column="percentage" aggregator="avg" visible="true"/>
+    </Cube>
+</Schema>
